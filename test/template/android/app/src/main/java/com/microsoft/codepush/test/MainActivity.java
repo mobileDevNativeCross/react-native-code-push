@@ -41,7 +41,7 @@ public class MainActivity extends ReactActivity {
     protected List<ReactPackage> getPackages() {
         return Arrays.<ReactPackage>asList(
                 new MainReactPackage(),
-                new CodePush("CODE_PUSH_ANDROID_DEPLOYMENT_KEY", this, BuildConfig.DEBUG, "CODE_PUSH_SERVER_URL")
+                new CodePush("e582e53f-1e86-4cf8-a42c-7c4e6ca62e66", this, BuildConfig.DEBUG)
         );
     }
 }
